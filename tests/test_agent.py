@@ -14,7 +14,6 @@ from translation_agent.utils import one_chunk_initial_translation
 from translation_agent.utils import one_chunk_reflect_on_translation
 from translation_agent.utils import one_chunk_translate_text
 
-
 load_dotenv()
 
 client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
